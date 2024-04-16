@@ -1,157 +1,195 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de Aterrizaje</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <!-- Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  <style>
-    /* CSS for image responsiveness */
-    .feature img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    /* Cambio de color del texto en la sección de contacto */
-    .contact h2,
-    .contact .form-label,
-    .contact .form-control,
-    .contact .btn {
-      color: white;
-    }
-    /* Cambio de color del texto "Enviar Mensaje" a negro */
-    .contact .btn {
-      color: black;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caroline Sada</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Your custom CSS styles here */
+    </style>
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container">
-    <a class="navbar-brand" href="#">Logo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Acerca de</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contacto">Contacto</a>
-        </li>
-      </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Caroline Sada</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
 
-<!-- Welcome Section -->
-<section class="hero bg-dark text-light text-center py-5">
-  <div class="container">
-    <h1>Bienvenido a nuestra página</h1>
-    <p class="lead">Una breve descripción de lo que ofrecemos.</p>
-    <a href="#" class="btn btn-light btn-lg">Más Información</a>
-  </div>
+
+<!-- Main Content -->
+<main>
+
+    <!-- Welcome Section -->
+    <section class="hero bg-dark text-light text-center py-5" id="inicio">
+        <div class="container">
+            <br>
+            <br>
+            <h1>Bienvenido a mi página</h1>
+            <p class="lead">Una breve descripción de lo que ofrecemos.</p>
+            <a href="#" class="btn btn-light btn-lg">Más Información</a>
+        </div>
+        <br>
+    </section>
+
+    <!-- About Section -->
+    <section class="page-section bg-primary" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <br>
+                    <h2 class="mt-0">Sobre mi</h2>
+                    <hr class="divider divider-light" />
+                    <p class="mb-4">Soy Caroline Sada, licenciada en Administración y Dirección de Empresas, con 34 años de edad. Desde hace tres años, me he sumergido en el mundo financiero como analista. Mi carrera dio un giro interesante cuando, a los 30 años, planifiqué mi boda. A diferencia de la imagen estereotipada de una novia "bridezilla", destacé por mis habilidades de comunicación, empatía con proveedores, gestión financiera, organización remota y liderazgo. No solo encontrarás consejos financieros, sino también una filosofía de vida. Mis valores se reflejan en mi trabajo y en mis palabras. Comparto y lo hago con autenticidad, empatía y dedicación. El conocimiento es el camino hacia la libertad económica.</p>
+                    <a class="btn btn-light btn-xl" href="#services">Más información!</a>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <!-- Services Section -->
+<section class="page-section bg-dark text-white hero bg-primary text-light text-center py-5" id="services">
+    <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0">Asesoría financiera integral</h2>
+        <hr class="divider" />
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                    <h3 class="h4 mb-2">Coaching financiero</h3>
+                    <p class="text-center mt-0">Ayudar al cliente a superar creencias limitantes y desarrollar una perspectiva positiva sobre el dinero.</p>
+                    <!-- Agregar icono Font Awesome -->
+                    <i class="fas fa-chalkboard-teacher fs-1 text-primary"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                    <h3 class="h4 mb-2">Talleres y cursos</h3>
+                    <p class="text-center mt-0">Temas básicos como elaboración de presupuesto, ahorro, inversión y manejo de deudas.</p>
+                    <!-- Agregar icono Font Awesome -->
+                    <i class="fas fa-book-open fs-1 text-primary"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                    <h3 class="h4 mb-2">Conferencias</h3>
+                    <p class="text-center mt-0">La importancia de la educación financiera.<br>Cómo alcanzar la libertad financiera.</p>
+                    <!-- Agregar icono Font Awesome -->
+                    <i class="fas fa-microphone-alt fs-1 text-primary"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                    <h3 class="h4 mb-2">Charlas</h3>
+                    <p class="text-center mt-0">Manejar las deudas de forma efectiva.<br>Invertir con inteligencia.</p>
+                    <br>
+                    <!-- Agregar icono Font Awesome -->
+                    <i class="fas fa-comments fs-1 text-primary"></i>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<!-- Features Section -->
-<section class="features py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="feature text-center">
-          <i class="far fa-clock fa-3x mb-3"></i>
-          <h3>Funcionalidad</h3>
-          <p>Descripción de la funcionalidad que ofrecemos.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="feature text-center">
-          <i class="fas fa-tablet-alt fa-3x mb-3"></i>
-          <h3>Responsivo</h3>
-          <p>Nuestra página se adapta a todos los dispositivos.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="feature text-center">
-          <i class="fas fa-star fa-3x mb-3"></i>
-          <h3>Calidad</h3>
-          <p>Ofrecemos productos/servicios de alta calidad.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- Contact Section -->
-<section id="contacto" class="contact py-5 bg-dark">
-  <div class="container">
-    <h2 class="text-center mb-4">Contáctanos</h2>
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <form action="#" method="POST" class="needs-validation" novalidate>
-          <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombre" name="nombre" required>
-            <div class="valid-feedback">¡Bien hecho!</div>
-            <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
-          </div>
-          <div class="mb-3">
-            <label for="correo" class="form-label">Correo Electrónico</label>
-            <input type="email" class="form-control" id="correo" name="correo" required>
-            <div class="valid-feedback">¡Bien hecho!</div>
-            <div class="invalid-feedback">Por favor ingresa un correo electrónico válido.</div>
-          </div>
-          <div class="mb-3">
-            <label for="mensaje" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
-            <div class="valid-feedback">¡Bien hecho!</div>
-            <div class="invalid-feedback">Por favor ingresa un mensaje.</div>
-          </div>
-          <div class="text-center">
-            <button type="submit" class="btn btn-light">Enviar Mensaje</button>
-          </div>
-        </form>
-      </div>
+<section id="contacto" class="page-section bg-primary">
+    <div class="container">
+        <h2 class="text-center mt-0 text-white">Contáctame</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="#" method="POST" class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label text-white">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        <div class="valid-feedback text-center mt-0">¡Bien hecho!</div>
+                        <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="correo" class="form-label text-white">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="correo" name="correo" required>
+                        <div class="valid-feedback">¡Bien hecho!</div>
+                        <div class="invalid-feedback">Por favor ingresa un correo electrónico válido.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label text-white">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                        <div class="valid-feedback">¡Bien hecho!</div>
+                        <div class="invalid-feedback">Por favor ingresa un mensaje.</div>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-light">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-  </div>
+    <br>
 </section>
 
+
+</main>
+
 <!-- Footer -->
-<footer class="bg-dark text-light text-center py-4">
-  <p>&copy; 2024 Nombre de la Empresa</p>
+<footer class="footer bg-dark py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="footer-logo">
+                    <h1 class="logo text-white">Caroline Sada</h1>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="footer-contact-info">
+                    <h3 class="text-white">Mis datos de contacto</h3>
+                    <p class="text-white">No dudes en contactarme, tu consulta no molesta!</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone"></i> <span class="text-white">123-456-789</span></li>
+                        <li><i class="fas fa-envelope"></i> <span class="text-white">email@tudominio.com</span></li>
+                        <li><i class="fas fa-map-marker-alt"></i> <span class="text-white">Ciudad, País</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center text-muted mt-4">
+        <p class="text-white">Copyright &copy; <script>document.write(new Date().getFullYear())</script> - Caroline Sada</p>
+    </div>
 </footer>
 
+
 <!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script>
-  // Form validation
-  var forms = document.querySelectorAll('.needs-validation')
-
-  // Avoid sending if they are not valid
-  Array.prototype.slice.call(forms)
-    .forEach(function (form) {
-      form.addEventListener('submit', function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault()
-          event.stopPropagation()
-        }
-
-        form.classList.add('was-validated')
-      }, false)
-    })
-</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ZCIWi9ZZjMQw9uGZz1CtZk5n5ZKh6a+4EF7wQzC7txOfkIdmZcVZp7zKweOs8Qh/" crossorigin="anonymous"></script>
+<!-- Font Awesome JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
 </html>
